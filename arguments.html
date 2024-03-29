@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript💛💛</h1>
+
+    <script>
+        console.log("Argument & Return");
+
+        function calareacircle(r)
+        {
+            const area = 3.14*r*r;
+
+            return area;
+        }
+        const area = calareacircle('50');
+        console.log(`Area of Circle:${area} `);
+
+       
+       
+        console.log("Arguments but No Return");
+
+        function areaofSquare(side)
+        {
+            const area = side * side;
+            console.log(`Area of Square:${area} `);
+        }
+        areaofSquare('50');
+
+        console.log("No Argument but Return")
+        
+        const radius = 50;
+        function areacircle()
+        {
+            const area = 3.14*radius*radius;
+            return area;
+        }
+        const a = areacircle();
+        console.log(`Area of Circle:${area} `);
+
+        console.log("No Argument No Return");
+
+        const side = 10;
+        function areaOfSquare()
+        {
+        const area = side * side;
+        console.log(`Area of Square:${area} `);
+       }
+       areaOfSquare();
+
+    </script>
+</body>
+</html>
